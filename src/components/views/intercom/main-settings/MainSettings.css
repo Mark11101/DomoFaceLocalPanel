@@ -1,0 +1,130 @@
+.b-main-settings__time-settings {
+  padding-bottom: var(--large-padding);
+}
+
+.b-main-settings__collection-key {
+  width: 100%;
+  margin-bottom: var(--common-margin);
+  margin-top: var(--average-margin);
+}
+
+.b-main-settings__flats-range {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--large-margin);
+}
+
+.b-main-settings__flats-range .b-range-field:first-child {
+  flex-grow: 1;
+}
+
+.b-main-settings .b-tooltip {
+  margin-top: 1px;
+}
+
+.b-main-settings__flats-duration,
+.b-main-settings__voltages {
+  margin-bottom: var(--large-margin);
+}
+
+.b-main-settings .Collapsible__contentInner .b-select:first-child {
+  margin-top: var(--common-margin);  
+}
+
+.b-main-settings .b-fraction p {
+  margin: 0;
+}
+
+.b-main-settings__voltages-wrapper {
+  margin-bottom: var(--large-margin);
+}
+
+.b-main-settings__voltages-header {
+  display: flex;
+}
+
+.b-main-settings__voltages-header h4 {
+  margin-right: var(--tiny-margin);
+}
+
+.b-main-settings__set-voltages-btn {
+  width: 100%;
+  margin-bottom: var(--average-margin);
+}
+
+.b-main-settings__date-picker .MuiFormControl-root {
+  width: 100%;
+}
+
+.b-main-settings__date-picker .MuiInput-underline:after {
+  border-color: var(--secondary-color);
+}
+
+.b-main-settings__date-picker .MuiInput-underline:before {
+  border-color: var(--main-color);
+}
+
+.b-main-settings__date-picker .MuiInput-root.MuiInput-underline:hover:before {
+  border-color: var(--secondary-color);
+}
+
+.b-main-settings__date-picker-device-time {
+  margin-top: var(--common-margin);
+  margin-bottom: var(--common-margin);
+  width: 100%;
+}
+
+.b-main-settings .b-main-settings__face-recognition-threshold {
+  margin-left: 6px;
+}
+
+.b-main-settings__voltages-auto {
+  margin-bottom: var(--small-margin);
+}
+
+@media (min-width: 580px) {
+  .b-main-settings__flats-range {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 645px) {
+  .b-main-settings__flats-duration,
+  .b-main-settings__voltages {
+    display: flex;
+  }
+
+  .b-main-settings__flats-duration .b-input-field,
+  .b-main-settings__voltages .b-input-field {
+    margin-right: var(--large-margin);
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .b-main-settings__flats-duration .b-input-field:last-child,
+  .b-main-settings__voltages .b-input-field:last-child {
+    margin-right: 0;
+  }
+
+  .b-main-settings__flats-duration,
+  .b-main-settings__voltages {
+    margin-bottom: var(--common-margin);
+  }
+}
+
+@media (min-width: 719px) {
+  .b-main-settings__flats-duration .b-input-field,
+  .b-main-settings__voltages .b-input-field {
+    min-height: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b-main-settings .b-tooltip {
+    margin-top: 0;
+    font-size: 12px;
+    padding-top: 2px;
+  }
+}

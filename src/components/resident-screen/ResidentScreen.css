@@ -1,0 +1,63 @@
+.b-resident-screen.container {
+  padding-top: var(--large-padding);
+  padding-bottom: var(--large-padding);
+  max-width: 375px;
+}
+
+.b-resident-screen__header {
+  text-align: center;
+}
+
+.b-resident-screen__image {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-resident-screen button {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-resident-screen__load-input {
+  opacity: 0;
+  position: absolute;
+  left: 0;top: 0;
+  padding-bottom: 14px;
+  width: inherit;
+  z-index: 2000;
+}
+
+.b-resident-screen__load-input:hover {
+  cursor: pointer;
+}
+
+.b-resident-screen__upload-photo-btn {
+  position: relative;
+}
+
+.b-resident-screen__streams .Collapsible__contentInner {
+  padding-top: var(--tiny-padding);
+  padding-bottom: var(--common-padding);
+}
+
+.b-resident-screen__main-stream p:last-child,
+.b-resident-screen__sub-stream p:last-child {
+  display: flex;
+}
+
+.b-resident-screen__main-stream p span,
+.b-resident-screen__sub-stream p span {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+}
+
+.b-resident-screen .b-resident-screen__main-stream p button,
+.b-resident-screen .b-resident-screen__sub-stream p button {
+  width: fit-content;
+  margin-right: var(--small-margin);
+}
+
+.b-resident-screen__main-stream p:last-child {
+  margin-bottom: var(--common-margin);
+}

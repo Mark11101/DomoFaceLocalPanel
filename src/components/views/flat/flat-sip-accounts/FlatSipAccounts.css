@@ -1,0 +1,31 @@
+.b-flat-sip-accounts {
+  margin-bottom: 19px;
+}
+
+.b-flat-sip-accounts .b-flat-sip-accounts__search-input {
+    border: 1px var(--main-color) solid;
+  }
+  
+.b-flat-sip-accounts__search-input + .input-group-append .input-group-text {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px var(--main-color) solid;
+}
+
+.b-flat-sip-accounts__search-input.form-control:focus {
+  box-shadow: none;
+  border-color: var(--secondary-color);
+}
+
+.b-flat-sip-accounts__search-input.form-control:focus + .input-group-append .input-group-text {
+  border-color: var(--secondary-color);
+}
+
+.b-flat-sip-accounts .input-group {
+  margin-bottom: var(--large-margin);
+}
+
+.b-flat-sip-accounts .b-flat-sip-accounts__search-input {
+  border: 1px var(--main-color) solid;
+}
+  

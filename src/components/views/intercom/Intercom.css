@@ -1,0 +1,332 @@
+.b-intercom-screen .b-intercom {
+  padding-bottom: 170px;
+  padding-top: var(--giant-padding);
+  max-width: 600px;
+}
+
+.b-intercom h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.b-intercom h2 {
+  font-size: 20px;
+  margin-top: var(--large-margin);
+  margin-bottom: 0;
+}
+
+.b-intercom h3 {
+  font-size: 18px;
+  margin-bottom: var(--big-margin);
+}
+
+.b-intercom h4 {
+  font-size: 16px;
+  margin-bottom: var(--common-margin);
+}
+
+.b-intercom p {
+  margin-bottom: var(--medium-margin);
+}
+
+.b-intercom__form > div {
+  margin-bottom: var(--common-margin);
+}
+
+.b-intercom__title {
+  margin-bottom: var(--big-margin);
+}
+
+.b-intercom__list .MuiListItem-gutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.b-intercom__list .MuiList-root .MuiButtonBase-root {
+  flex-direction: column;
+}
+
+.b-intercom__list .b-select {
+  width: 100%;
+}
+
+.b-intercom__list .b-input-field,
+.b-intercom__list .b-radio-button,
+.b-intercom__list h3 {
+  margin-bottom: var(--common-margin);
+  width: 100%;
+}
+
+.b-intercom__list .MuiListItemText-root {
+  padding-right: 10px;
+}
+
+.b-intercom__list .b-intercom__sub-list .b-intercom__sub-list-title {
+  flex-direction: row;
+}
+
+.b-intercom__form .Collapsible {
+  margin-bottom: 0;
+}
+
+.b-intercom__form .Collapsible__trigger {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--average-padding);
+  position: relative;
+  margin-bottom: var(--tiny-margin);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.b-intercom .Collapsible__trigger.is-open,
+.b-intercom__form .Collapsible__trigger:hover {
+  z-index: 2;
+  background-color: var(--secondary-color);
+}
+
+.b-intercom__form .Collapsible__trigger:hover {
+  cursor: pointer;
+}
+
+.b-intercom__form .Collapsible__trigger:after {
+  content: '>';
+  color: var(--white-color);
+  margin-left: var(--common-margin);
+  margin-right: 5px;
+  transform: rotate(90deg);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.b-intercom__form .Collapsible__trigger.is-open:after {
+  margin-right: 2px;
+  transform: rotate(270deg);
+}
+
+.b-intercom__list-main-content {
+  margin: var(--large-margin) 0;
+}
+
+.b-intercom__list-main-content h3 {
+  margin: var(--large-margin) 0;
+}
+
+.b-intercom__intercom-audio-settings .Collapsible__contentInner h4 {
+  margin-top: var(--large-margin);
+}
+
+.b-intercom__open-docs-btn,
+.b-intercom__open-door-btn {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-intercom__open-docs-btn {
+  margin-bottom: var(--large-margin);
+}
+
+.b-intercom .b-intercom__intercom-info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--common-margin);
+}
+
+.b-intercom__intercom-info p span:first-child {
+  width: 100%;
+  margin-right: var(--common-margin);
+}
+
+.b-intercom__intercom-info p span:last-child {
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.b-slider-field__input {
+  margin-right: 15px;
+}
+
+.b-slider-field__input .MuiSlider-thumb {
+  margin-left: 1px;
+}
+
+.b-slider-field__input .MuiSlider-thumb:hover,
+.b-slider-field__input .MuiSlider-thumb:active {
+  box-shadow: none;
+}
+
+.b-slider-field__input .MuiSlider-valueLabel {
+  margin-left: 9px;
+  font-size: 9px;
+  margin-top: 21px;
+}
+
+.b-slider-field__input .PrivateValueLabel-circle-12 {
+  width: 15px;
+  height: 15px;
+}
+
+.b-intercom .b-intercom__control-btns {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.b-intercom .b-intercom__reset-settings-btn {
+  background-color: var(--delete-color);
+  margin-bottom: var(--large-margin);
+  flex-grow: 1;
+  width: 100%;
+}
+
+.b-intercom .b-intercom__reset-settings-btn:hover {
+  background-color: var(--delete-secondary-color);
+}
+
+.b-intercom .b-intercom__save-settings-btn {
+  margin-bottom: var(--large-margin);
+  flex-grow: 1;
+}
+
+.b-sip-settings__inner-list-main-inputs {
+  margin-top: var(--common-margin);
+  margin-bottom: var(--big-margin);
+}
+
+.b-sip-settings__inner-list .b-save-settings-buttons {
+  margin-bottom: var(--small-margin);
+}
+
+.b-sip-settings__inner-list .b-sip-settings__inner-list-turn-inputs {
+  margin-bottom: var(--big-margin);
+}
+
+.b-intercom__sip-settings .Collapsible__contentInner > .b-select:first-child,
+.b-intercom__sip-settings .Collapsible__contentInner > .b-input-field:first-child {
+  margin-top: var(--common-margin);
+}
+
+.b-intercom__sip-settings .Collapsible__contentInner > .b-input-field:last-child,
+.b-intercom__sip-settings .Collapsible__contentInner > .b-radio-button:last-child {
+  margin-bottom: var(--common-margin);
+}
+
+.b-sip-settings__inner-list {
+  margin-left: var(--common-margin);
+}
+
+.b-intercom__sip-settings .b-sip-settings__inner-list:last-child {
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-sip-settings__divider--mt-large {
+  margin-top: var(--large-margin);
+}
+
+.b-sip-settings__divider--mb-small {
+  margin-bottom: var(--small-margin);
+}
+
+.b-sip-settings__turn-server-header--mt-huge {
+  margin-top: var(--huge-margin);
+}
+
+.b-intercom__audio-setting {
+  padding-top: var(--average-padding);
+  padding-bottom: 15px;
+}
+
+.b-intercom__audio-setting-radio {
+  margin-bottom: var(--big-margin);
+}
+
+.b-intercom__audio-setting-radio label {
+  margin: 0;
+}
+
+.b-intercom__audio-setting-header {
+  margin-top: var(--average-margin);
+}
+
+.b-intercom__microphone-container {
+  margin-bottom: var(--large-margin);
+}
+
+.b-intercom__download-settings,
+.b-intercom__load-settings {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-intercom__load-settings,
+.b-intercom__update-firmware-btn {
+  position: relative;
+}
+
+.b-intercom__update-firmware-btn {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-intercom__sys-settings .Collapsible__contentInner {
+  padding-bottom: var(--average-margin);
+}
+
+.b-intercom__photo-from-camera {
+  width: 100%;
+}
+
+.b-intercom__copy-btn.b-button {
+  padding: 0;
+  background-color: white;
+  color: #7b7b7b;
+  margin-right: var(--tiny-margin);
+}
+
+.b-intercom__copy-btn.b-button:hover {
+  background-color: white;
+  opacity: 0.8;
+}
+
+@media (min-width: 437px) {
+  .b-intercom__intercom-info p {
+    align-items: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .b-intercom__agc-mode-settings,
+  .b-intercom__dynamic-settings {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .b-intercom__agc-mode-settings .b-input-field,
+  .b-intercom__dynamic-settings .b-input-field {
+    margin-right: var(--large-margin);
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .b-intercom__agc-mode-settings .b-input-field:last-child,
+  .b-intercom__dynamic-settings .b-input-field:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b-intercom-screen .b-intercom {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .b-intercom__title,
+  .b-intercom__title + .b-divider {
+    display: none;
+  }
+}

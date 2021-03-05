@@ -1,0 +1,7 @@
+.b-select {
+  margin-bottom: var(--common-margin);
+}
+
+.b-select .b-input-panel {
+  width: 100%;
+}

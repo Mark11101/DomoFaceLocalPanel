@@ -1,0 +1,26 @@
+.b-emergency-sip-accounts .b-emergency-sip-accounts__search-input {
+  border: 1px var(--main-color) solid;
+}
+
+.b-emergency-sip-accounts__search-input + .input-group-append .input-group-text {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px var(--main-color) solid;
+}
+
+.b-emergency-sip-accounts__search-input.form-control:focus {
+  box-shadow: none;
+  border-color: var(--secondary-color);
+}
+
+.b-emergency-sip-accounts__search-input.form-control:focus + .input-group-append .input-group-text {
+  border-color: var(--secondary-color);
+}
+
+.b-emergency-sip-accounts .input-group {
+  margin-bottom: var(--large-margin);
+}
+
+.b-emergency-sip-accounts .b-emergency-sip-accounts__search-input {
+  border: 1px var(--main-color) solid;
+}

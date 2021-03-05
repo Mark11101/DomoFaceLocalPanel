@@ -1,0 +1,26 @@
+.b-stun-servers .b-stun-servers__search-input {
+  border: 1px var(--main-color) solid;
+}
+
+.b-stun-servers__search-input + .input-group-append .input-group-text {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px var(--main-color) solid;
+}
+
+.b-stun-servers__search-input.form-control:focus {
+  box-shadow: none;
+  border-color: var(--secondary-color);
+}
+
+.b-stun-servers__search-input.form-control:focus + .input-group-append .input-group-text {
+  border-color: var(--secondary-color);
+}
+
+.b-stun-servers .input-group {
+  margin-bottom: var(--large-margin);
+}
+
+.b-stun-servers .b-stun-servers__search-input {
+  border: 1px var(--main-color) solid;
+}

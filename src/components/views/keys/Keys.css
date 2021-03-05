@@ -1,0 +1,287 @@
+.b-intercom-screen .b-keys {
+  padding-bottom: 150px;
+  padding-top: var(--giant-padding);
+  max-width: 600px;
+}
+
+.b-keys__title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: var(--big-margin);
+}
+
+.b-keys__key {
+  position: relative;
+  margin-bottom: -1px;
+  border-bottom: 1px var(--main-color) solid;
+  border-top: 1px var(--main-color) solid;
+  z-index: 1;
+  padding: var(--average-margin) 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-keys__key:hover {
+  border-bottom: 1px var(--secondary-color) solid;
+  border-top: 1px var(--secondary-color) solid;
+  z-index: 2;
+}
+
+.b-keys__key svg {
+  color: var(--delete-color);
+  font-size: 25px;
+}
+
+.b-keys__delete-btn svg:hover {
+  color: var(--delete-secondary-color);
+}
+
+.b-keys .b-keys__delete-btn,
+.b-keys .b-keys__delete-btn:hover {
+  background-color: transparent;
+  padding: 0;
+}
+
+.b-keys .b-keys__add-btn,
+.b-keys .b-keys__qr-code-add-btn {
+  margin-right: 1px;
+}
+
+.b-keys .b-keys__delete-all-btn,
+.b-keys .b-keys__add-btn {
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: var(--average-margin);
+  padding: 10px;
+}
+
+.b-keys__buttons {
+  display: flex;
+}
+
+.b-keys .Collapsible__trigger {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--average-padding);
+  position: relative;
+  margin-bottom: var(--tiny-margin);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.b-keys__inner-list:last-child .Collapsible__trigger {
+  margin-bottom: 0;
+}
+
+.b-keys .Collapsible__trigger.is-open,
+.b-keys .Collapsible__trigger:hover {
+  background-color: var(--secondary-color);
+  z-index: 2;
+}
+
+.b-keys .Collapsible__trigger:hover {
+  cursor: pointer;
+}
+
+.b-keys .Collapsible__trigger:after {
+  content: '>';
+  color: var(--white-color);
+  margin-left: var(--common-margin);
+  margin-right: 5px;
+  transform: rotate(90deg);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.b-keys .Collapsible__trigger.is-open:after {
+  margin-right: 2px;
+  transform: rotate(270deg);
+}
+
+.b-keys .Collapsible__contentInner {
+  padding-top: var(--common-padding);
+  padding-bottom: var(--big-padding);
+}
+
+.b-keys__qr-code.card {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: var(--large-margin);
+  margin-right: var(--common-margin);
+  margin-right: 0;
+}
+
+.b-keys__qr-code .card-header {
+  padding: 0;
+}
+
+.b-keys__qr-code .b-keys__qr-code-edit-btn,
+.b-keys__qr-code .b-keys__qr-code-delete-btn {
+  border-radius: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.b-keys__qr-code .b-button--edit {
+  background-color: var(--main-color);
+}
+
+.b-keys__qr-code-edit-btn {
+  margin-bottom: 1px;
+}
+
+.b-keys__qr-code .card-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.b-keys__qr-code-buttons {
+  margin-left: 1px;
+}
+
+.b-keys__qr-codes-buttons {
+  display: flex;
+  margin-bottom: var(--large-margin);
+  justify-content: center;
+}
+
+.b-keys .b-keys__qr-code-add-btn,
+.b-keys .b-keys__qr-code-delete-all-btn {
+  width: 100%;
+  border-radius: 0;
+}
+
+.b-keys__qr-codes-content {
+  text-align: center;
+}
+
+.b-keys__random-qr-code-btn {
+  width: 100%;
+  margin-bottom: var(--big-margin);
+}
+
+.b-keys__modal-text-input {
+  margin-bottom: var(--common-margin);
+}
+
+.b-keys .input-group {
+  margin-bottom: var(--large-margin);
+}
+
+.b-keys .b-keys__search-input {
+  border: 1px var(--main-color) solid;
+}
+
+.b-keys__search-input + .input-group-append .input-group-text {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px var(--main-color) solid;
+}
+
+.b-keys__search-input.form-control:focus {
+  box-shadow: none;
+}
+
+.b-keys__search-input.form-control:focus,
+.b-keys__search-input.form-control:focus + .input-group-append .input-group-text {
+  border-color: var(--secondary-color);
+}
+
+.b-keys__key-code {
+  font-variant-numeric: tabular-nums;
+}
+
+.b-keys__load-input {
+  opacity: 0;
+  position: absolute;
+  left: 0;top: 0;
+  padding-bottom: 14px;
+  width: inherit;
+  z-index: 20000;
+}
+
+.b-keys__load-input:hover {
+  cursor: pointer;
+}
+
+.b-keys__download-btn,
+.b-keys__load-btn {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-keys__load-btn {
+  position: relative;
+}
+
+.b-keys__download-btn {
+  margin-right: 1px;
+}
+
+.b-keys__qr-codes-content .card-columns {
+  column-count: 1;
+}
+
+.b-keys__qr-code .card-header {
+  display: block;
+}
+
+.b-keys__qr-code .card-header canvas {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+@media (min-width: 370px) {
+  .b-keys__qr-codes-search-input {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 414px) {
+  .b-keys__qr-code.card {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .b-keys__qr-codes {
+    text-align: center;
+  }
+
+  .b-keys .b-keys__qr-code-add-btn, 
+  .b-keys .b-keys__qr-code-delete-all-btn {
+    max-width: initial;
+  }
+
+  .b-keys__qr-codes-search-input .input-group {
+    max-width: initial;
+  }
+
+  .b-keys__qr-code-buttons {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b-intercom-screen .b-keys {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .b-keys__qr-codes-content .card-columns {
+    column-count: 2;
+  }
+
+  .card-columns .b-keys__qr-code.card {
+    width: unset;
+  }
+
+  .b-keys__title,
+  .b-keys__title + .b-divider {
+    display: none;
+  }
+}

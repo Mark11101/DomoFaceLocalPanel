@@ -1,0 +1,10 @@
+.b-intercom-screen .react-swipeable-view-container {
+  height: 100vh;
+  padding-top: 54px;
+}
+
+@media (max-width: 1200px) {
+  .b-intercom-screen .react-swipeable-view-container {
+    padding-top: 0;
+  }
+}

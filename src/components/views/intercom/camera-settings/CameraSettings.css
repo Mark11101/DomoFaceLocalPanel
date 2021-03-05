@@ -1,0 +1,103 @@
+.b-camera-settings-stream .Collapsible__contentInner {
+  padding-top: var(--average-padding);
+  padding-bottom: var(--small-padding);
+}
+
+.b-stream {
+  margin-bottom: var(--large-margin);
+}
+
+.b-stream .b-stream__header {
+  margin-bottom: var(--average-margin);
+}
+
+.b-stream__bitrate-type {
+  margin-bottom: var(--large-margin);
+}
+
+.b-stream__gop-interval {
+  margin-bottom: var(--average-margin);
+}
+
+.b-camera-settings-sub-stream {
+  margin-bottom: 0;
+}
+
+.b-camera-settings-image .Collapsible__contentInner {
+  padding-top: var(--small-padding);
+}
+
+.b-camera-settings__flip-vertical {
+  margin-bottom: var(--small-margin);
+}
+
+.b-camera-settings__frequency {
+  margin-bottom: var(--big-margin);
+}
+
+.b-camera-settings__sharpness {
+  margin-bottom: var(--large-margin);
+}
+
+.b-camera-settings-image .b-slider small:first-child {
+  display: block;
+}
+
+.b-camera-settings .b-camera-settings__wb-header {
+  margin-bottom: var(--medium-margin);
+}
+
+.b-camera-settings .b-camera-settings__wb-auto {
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-camera-settings__wb-manual-blue {
+  margin-bottom: var(--big-margin);
+}
+
+.b-camera-settings__wb {
+  margin-bottom: var(--medium-margin);
+}
+
+.b-camera-settings__wdr {
+  margin-bottom: var(--average-margin);
+}
+
+.b-stream .b-divider {
+  margin-top: var(--big-margin);
+}
+
+.b-camera-settings-sub-stream .b-divider {
+  margin-bottom: var(--big-margin);
+}
+
+.b-camera-settings-image .b-camera-settings__wb + .b-divider {
+  margin-bottom: var(--large-margin);
+  margin-top: var(--large-margin);
+}
+
+.b-camera-settings__manual-ir-cut-btns {
+  display: flex;
+  margin-bottom: var(--average-margin);
+}
+
+.b-camera-settings__manual-ir-cut-btns button {
+  width: 100%;
+}
+
+.b-camera-settings__manual-ir-cut-btns button:first-child {
+  margin-right: 1px;
+}
+
+.b-camera-settings__ir-auto {
+  margin-bottom: var(--common-margin);
+}
+
+.b-camera-settings-image__radio-btns .b-radio-button .MuiFormControlLabel-root {
+  justify-content: space-between;
+}
+
+.b-camera-settings__password {
+  margin-top: var(--tiny-margin);
+  margin-bottom: var(--average-margin);
+}

@@ -1,0 +1,224 @@
+.b-intercom-screen .b-flat {
+  padding-bottom: 140px;
+  padding-top: var(--giant-padding);
+  max-width: 600px;
+}
+
+.b-flat h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.b-flat h2 {
+  font-size: 20px;
+  margin-top: var(--large-margin);
+  margin-bottom: 0;
+}
+
+.b-flat h3 {
+  font-size: 18px;
+  margin-bottom: var(--big-margin);
+}
+
+.b-flat h4 {
+  font-size: 16px;
+  margin-bottom: var(--common-margin);
+}
+
+.b-flat p {
+  margin-bottom: 0;
+}
+
+.b-flat__title {
+  margin-bottom: var(--big-margin);
+}
+
+.b-flat .Collapsible__trigger {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--average-padding);
+  position: relative;
+  margin-bottom: var(--tiny-margin);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.b-flat__inner-list:last-child .Collapsible__trigger {
+  margin-bottom: 0;
+}
+
+.b-flat .Collapsible__trigger.is-open,
+.b-flat .Collapsible__trigger:hover {
+  background-color: var(--secondary-color);
+  z-index: 2;
+}
+
+.b-flat .Collapsible__trigger:hover {
+  cursor: pointer;
+}
+
+.b-flat .Collapsible__trigger:after {
+  content: '>';
+  color: var(--white-color);
+  margin-left: var(--common-margin);
+  margin-right: 5px;
+  transform: rotate(90deg);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.b-flat .Collapsible__trigger.is-open:after {
+  margin-right: 2px;
+  transform: rotate(270deg);
+}
+
+.b-flat__line-thresholds {
+  margin-bottom: var(--medium-margin);
+}
+
+.b-flat__sip-account {
+  padding: var(--common-margin) 0;
+}
+
+.b-flat__inner-list {
+  padding-left: var(--average-margin);
+}
+
+.b-flat__inner-list-content {
+  padding-top: var(--large-margin);
+}
+
+.b-flat__choose-flat-btn {
+  width: 100%;
+  margin-bottom: var(--tiny-margin);
+}
+
+.b-modal-form .b-flat__card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+.b-flat__card-deck .b-flat__card.card {
+  min-width: 70px;
+  min-height: 70px;
+  justify-content: center;
+  border: none;
+  margin-bottom: 20px;
+  flex: 1 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.b-flat__flat-btn {
+  height: 100%;
+}
+
+.b-flat__modal-body.modal-body {
+  padding: 20px 10px;
+  padding-bottom: 0;
+}
+
+.b-flat__search-input-group {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.b-flat__search-input-group .input-group-append {
+  margin-right: 20px;
+}
+
+.b-flat__audio-setting {
+  padding-top: var(--common-padding);
+  padding-bottom: 15px;
+}
+
+.b-flat__audio-setting-radio label {
+  margin: 0;
+}
+
+.b-flat__audio-setting-header {
+  margin-top: var(--average-margin);
+}
+
+.b-flat .b-flat__control-btns {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.b-flat .b-flat__reset-settings-btn {
+  background-color: var(--delete-color);
+  margin-bottom: var(--large-margin);
+  flex-grow: 1;
+}
+
+.b-flat .b-flat__reset-settings-btn:hover {
+  background-color: var(--delete-secondary-color);
+}
+
+.b-flat .b-flat__save-settings-btn {
+  margin-bottom: var(--large-margin);
+  flex-grow: 1;
+}
+
+.b-flat__use-custom-settings {
+  margin-top: 15px;
+  margin-bottom: var(--big-margin);
+}
+
+.b-flat__set-flat-range {
+  text-align: center;
+  margin-bottom: var(--big-margin);
+}
+
+.b-flat .b-flat__reset-all-flats-settings-btn {
+  width: 100%;
+}
+
+.b-flat__sip-settings {
+  margin-bottom: var(--large-margin);
+}
+
+.b-flat__main-settings .Collapsible__contentInner {
+  padding-top: var(--common-padding);
+  padding-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+  .b-flat .b-radio-button .MuiFormControlLabel-root {
+    justify-content: flex-end;
+  }
+
+  .b-flat__agc-mode-settings,
+  .b-flat__dynamic-settings {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .b-flat__agc-mode-settings .b-input-field,
+  .b-flat__dynamic-settings .b-input-field {
+    margin-right: var(--large-margin);
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .b-flat__agc-mode-settings .b-input-field:last-child,
+  .b-flat__dynamic-settings .b-input-field:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b-intercom-screen .b-flat {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .b-flat__title,
+  .b-flat__title + .b-divider {
+    display: none;
+  }
+}

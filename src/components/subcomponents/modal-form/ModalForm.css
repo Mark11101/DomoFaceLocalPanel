@@ -1,0 +1,41 @@
+.b-modal-form.modal {
+  /* z-index: 2000; */
+}
+
+.b-modal-form .b-modal-form__header {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.b-modal-form__header-title {
+  padding: 0 var(--average-padding);
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.b-modal-form .b-modal-form__close-modal-btn {
+  border-radius: 0;
+  padding: 10px 25px;
+  font-size: 23px;
+  border-top-right-radius: .2rem;
+}
+
+.b-modal-form + .modal-backdrop {
+  z-index: 1050;
+}
+
+.b-modal-form .b-modal-form__close-modal-btn-center {
+  width: 100%;
+  font-size: 23px;
+}
+
+.b-modal-form--bottom-close-btn .modal-body div {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.b-modal-form--bottom-close-btn .modal-body {
+  padding: 0;
+  padding-top: 1rem;
+}
